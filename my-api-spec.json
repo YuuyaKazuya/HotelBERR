@@ -1,13 +1,13 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Hostel Visitor Management API",
+    "title": "HostelBERR API",
     "version": "1.0.0",
     "description": "This is a simple CRUD API application made with Express and documented with Swagger"
   },
   "servers": [
     {
-      "url": "https://hotel16.azurewebsites.net"
+      "url": "https://hotelberr-assignmentis.azurewebsites.net/"
     }
   ],
   "components": {
