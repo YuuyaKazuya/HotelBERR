@@ -226,7 +226,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 
 // Other imports...
 
-const uri = "mongodb+srv://aidazainuddin4499:TEST123@cluster0.npqrvz0.mongodb.net/";
+const uri = "mongodb+srv://Sufi21:Sufi2024@cluster0.hk1ehq1.mongodb.net/";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Swagger setup and other code...
