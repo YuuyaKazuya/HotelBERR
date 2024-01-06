@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const bodyParser = require('body-parser');
 const { ObjectId } = require('mongodb'); // Import ObjectId
 //const port = 2000;
-const port = process.env.PORT || 2000 ;
+const port = process.env.PORT || 3000 ;
 const ejs = require('ejs');
 const path = require('path');
 
@@ -25,7 +25,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'https://hotel16.azurewebsites.net',
+        url: 'https://hotelberr-assignmentis.azurewebsites.net/',
       },
     ],
     components: {
@@ -267,7 +267,7 @@ let securityCollection;
 client.connect()
   .then(() => {
     console.log('Connected to MongoDB');
-    db = client.db('Hostel_Visitor_Management');
+    db = client.db('hotelBERR');
     
 
   // Initialize collections after establishing the connection
@@ -280,7 +280,7 @@ client.connect()
 
   // Now you can safely start your server here, after the DB connection is established
   app.listen(port, () => {
-    console.log(`Server is running on https://hotel16.azurewebsites.net/`);
+    console.log(`Server is running on https://hotelberr-assignmentis.azurewebsites.net/`);
   });
 });
 
