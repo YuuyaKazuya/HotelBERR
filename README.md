@@ -1,1 +1,1 @@
-# grouphotel16
+# HotelBERR
